@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Front-End Exercise</title>
+        <link rel="icon" type="image/ico" href="assets/images/strondeLogo.png">
+        <!-- Mobile Specific Metas -->
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <!-- CSS -->
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+        <!--JS-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <!-- Font Awesome -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <!--Google Fonts-->
+        <link href='https://fonts.googleapis.com/css?family=Cabin' rel='stylesheet'>
+    </head>
+  
+    <body>
+        <div id="navigation"></div>
+        <div id="content"></div>
+        <div id="footer"></div>
+        <script>
+        $("#navigation").load("assets/main/navigation.html");
+        $("#content").load("assets/main/content.html");
+        $("#footer").load("assets/main/footer.html");
+        </script>
+        <script src="index.js"></script>
+    </body>
+</html>

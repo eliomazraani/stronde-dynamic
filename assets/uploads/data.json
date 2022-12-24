@@ -1,0 +1,17 @@
+{
+    "logoImage": "assets/images/sfeLogo.png",
+    "account": {
+        "fname": "Bob",
+        "lname": "Walker",
+        "email": "bob@stronde.com",
+        "timeZone": "EST"
+    },
+    "modules": {
+        "options": [
+            {"label": "Coca Cola Brand", "url": "https://www.google.com"},
+            {"label": "Unilever Brand", "url": "https://www.google.com"},
+            {"label": "Waterworld Waterpark Ayia Napa", "url": "https://www.google.com"},
+            {"label": "Amazon Electronics", "url": "https://www.google.com"}
+        ]
+    }
+}
